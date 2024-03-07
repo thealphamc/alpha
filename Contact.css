@@ -591,6 +591,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1227px;
+  }
+
   .u-section-2 .u-text-1 {
     font-size: 1.5rem;
   }
