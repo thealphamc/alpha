@@ -1,14 +1,15 @@
  .u-section-1 {
   background-image: url("images/pizza1.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 400px;
 }
 
-@media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 355px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 811px;
@@ -194,9 +195,14 @@
   }
 
   .u-section-2 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-    width: 540px;
+    width: auto;
+    margin-top: 18px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 32px;
   }
 
   .u-section-2 .u-image-1 {
@@ -229,11 +235,21 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 653px;
+    min-height: 634px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 31px;
   }
 
   .u-section-2 .u-text-2 {
-    width: 340px;
+    margin-top: 21px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 29px;
   }
 
   .u-section-2 .u-image-1 {
