@@ -1169,7 +1169,7 @@ a {
   letter-spacing: inherit !important;
   text-transform: inherit !important;
 }
-.u-logo {
+/*.u-logo {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
@@ -1198,6 +1198,29 @@ a {
   align-items: center;
   flex-grow: 1;
 }
+*/
+
+.u-logo {
+  color: inherit;
+  font: inherit; /* Combine font related properties */
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  background-color: transparent;
+  margin: 0;
+  -webkit-text-decoration-skip: objects;
+}
+
+.u-image.u-logo {
+  display: block; /* Change to block level */
+}
+
+.u-form-horizontal {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent items from wrapping */
+  align-items: center;
+}
+
 .u-input {
   display: block;
   width: 100%;

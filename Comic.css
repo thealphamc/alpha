@@ -1,4 +1,9 @@
- .u-section-1 {
+.u-logo-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.u-section-1 {
   background-image: none;
 }
 
